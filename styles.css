@@ -56,6 +56,52 @@ footer {
     width: 100%;
 }
 
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.bucket {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.bucket img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.bucket h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 15px 0;
+}
+
+.bucket button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.bucket button:hover {
+    background-color: #0056b3;
+}
+
+
 footer p {
     margin: 0;
 }
